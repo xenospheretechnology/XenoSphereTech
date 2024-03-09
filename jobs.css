@@ -1,0 +1,203 @@
+/* Microsoft-inspired color palette */
+body {
+    background-color: #f4f8fa;
+    color: #333;
+  }
+
+  .project, .manager {
+    color: #0078d7; /* Microsoft blue */
+  }
+
+ /* Styling the unordered list */
+.navbarlist {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0px;
+    padding: 0px;
+    float: right; /* Float the list to the left */
+}
+
+
+
+/* Styling the list items */
+li {
+    display: inline; /* Display list items inline */
+}
+
+/* Styling the links within the list items */
+li a {
+    display: inline-block; /* Display links as blocks */
+    color: white; /* Text color */
+    padding: 14px 20px; /* Padding for space around the text */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Hover effect on links */
+li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+nav {
+    background-image: linear-gradient(#3636ff, #6868fc);
+    width:100%;
+    height:46px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    float:left;
+    width: 12%;
+    height: 98%;
+}
+
+ 
+  /* Header */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  .hero {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .hero img {
+    max-width: 50%;
+    float: right;
+    margin-left: 2rem;
+  }
+
+  /* Skills */
+  .skills {
+    padding: 2rem;
+    background-color: #f0f4f7;
+    border-radius: 10px;
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .skills-list li {
+    margin: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Impact */
+  .impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .impact-card {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .impact-card img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Call to Action */
+  .cta {
+    padding: 2rem;
+    text-align: center;
+    background-color: #e4f1fc; /* Lighter Microsoft blue */
+    border-radius: 10px;
+  }
+
+  .cta button {
+    background-color: #0078d7; /* Main Microsoft blue */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cta button:hover {
+    opacity: 0.8;
+  }
+
+  /* Text with shapes */
+  .skill-title {
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 50px; /* Circle */
+  }
+
+  .impact-heading {
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+  
+  .top {
+    margin:50px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: "Rubik";
+    left: 0;
+    right:0;
+    bottom:0;
+  }
+.details-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.cred {
+  color: white;
+}
+
+footer {
+  padding: 1rem
+}
